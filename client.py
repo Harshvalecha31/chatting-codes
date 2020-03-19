@@ -3,6 +3,7 @@ import socket
 # getting the ip address of the host
 hostname = socket.gethostname()
 ipaddr = socket.gethostbyname(hostname)
+port = 9999
 # creating a socket object 
 s = socket.socket()
 # connecting to the port
